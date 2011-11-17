@@ -25,11 +25,11 @@ java -cp target/classes se.athega.lizell.gameoflife.Game ---\
 ### Run the Google Spreadsheet Viewer
 
 ```shell
-java -cp target/classes:/Users/chrliz/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar:/Users/chrliz/.m2/resitory/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/Users/chrliz/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar se.athega.lizell.gdata.DisplayData
+java -cp target/classes:~/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar:~/.m2/resitory/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:~/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar se.athega.lizell.gdata.DisplayData
 ```
 
 ```shell
-java -cp target/classes:/Users/chrliz/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar:/Users/chrliz/.m2/resitory/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/Users/chrliz/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar se.athega.lizell.gdata.DisplayData <aKey>
+java -cp target/classes:~/.m2/repository/commons-httpclient/commons-httpclient/3.1-rc1/commons-httpclient-3.1-rc1.jar:~/.m2/resitory/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:~/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar se.athega.lizell.gdata.DisplayData <aKey>
 ```
 
 Feel free to adjust, expand, provide feedback or all of it! ;)
