@@ -11,7 +11,7 @@ import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertThat;
 
-public class GlobalTimoutExample {
+public class GlobalTimeoutExample {
 	@Rule
 	public MethodRule tmpFolder = new Timeout(1000);
 
