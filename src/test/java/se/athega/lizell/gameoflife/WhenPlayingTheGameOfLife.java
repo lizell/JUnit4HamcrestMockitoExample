@@ -39,7 +39,7 @@ public class WhenPlayingTheGameOfLife {
 	}
 
 	@Test
-	public void liveCellsWith2or3iveNeighbourShouldRemainAliveInTheNextGeneration() throws Exception {
+	public void liveCellsWith2or3LiveNeighbourShouldRemainAliveInTheNextGeneration() throws Exception {
 		world = new World(
 				"##-\n" +
 				"##-\n" +
